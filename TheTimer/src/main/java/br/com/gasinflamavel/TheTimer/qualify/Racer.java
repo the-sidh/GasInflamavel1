@@ -5,16 +5,17 @@ import java.util.List;
 
 public class Racer implements Dropable{
 
-	private int id;
+	private int racerId;
 	private int receiverNumber;
 	private String name;
-	private List<Drop> drops = new ArrayList<Drop>();
+	private Drop drop;
 	
-	public int getId() {
-		return id;
+
+	public int getRacerId() {
+		return racerId;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setRacerId(int racerId) {
+		this.racerId = racerId;
 	}
 	public int getReceiverNumber() {
 		return receiverNumber;
@@ -31,6 +32,14 @@ public class Racer implements Dropable{
 	public void addDrop(Drop drop) {
 		
 	}
+	public Drop getDrop() {
+		return drop;
+	}
+	public void setDrop(Drop drop) {
+		this.drop = drop;
+	}
+
+	
 	
 	
 }
