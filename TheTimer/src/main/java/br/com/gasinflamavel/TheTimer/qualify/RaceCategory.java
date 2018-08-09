@@ -4,7 +4,12 @@ public class RaceCategory {
 
 	int catId;
 	String description;
-			
+	
+	public RaceCategory(int catId, String description) {
+		super();
+		this.catId = catId;
+		this.description = description;
+	}
 	public int getCatId() {
 		return catId;
 	}
