@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Qualify {
 
+	private int raceId;
+	
 	List<QualifySession> sessions = new ArrayList<QualifySession>();
 
 	public List<QualifySession> getSessions() {
@@ -14,4 +16,14 @@ public class Qualify {
 	public void setSessions(List<QualifySession> sessions) {
 		this.sessions = sessions;
 	}
+
+	public int getRaceId() {
+		return raceId;
+	}
+
+	public void setRaceId(int raceId) {
+		this.raceId = raceId;
+	}
+	
+	
 }

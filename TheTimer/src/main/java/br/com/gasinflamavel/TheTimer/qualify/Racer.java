@@ -1,9 +1,7 @@
-package br.com.gasinflamavel.TheTimer.racer;
+package br.com.gasinflamavel.TheTimer.qualify;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import br.com.gasinflamavel.TheTimer.qualify.Drop;
 
 public class Racer implements Dropable{
 

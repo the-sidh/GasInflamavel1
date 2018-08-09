@@ -3,8 +3,6 @@ package br.com.gasinflamavel.TheTimer.qualify;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.gasinflamavel.TheTimer.racer.Racer;
-
 public class QualifySession {
 	private int id;
 	private List<Racer> racers = new ArrayList<Racer>();
