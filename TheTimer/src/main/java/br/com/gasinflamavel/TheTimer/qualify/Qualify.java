@@ -8,6 +8,12 @@ public class Qualify {
 	private int raceId;
 	
 	List<QualifySession> sessions = new ArrayList<QualifySession>();
+	
+	
+	public Qualify(int raceId) {
+		super();
+		this.raceId = raceId;
+	}
 
 	public List<QualifySession> getSessions() {
 		return sessions;

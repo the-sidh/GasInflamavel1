@@ -4,10 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class QualifySession {
+	
 	private int sessionId;
 	private String label;
-	private List<Racer> racers = new ArrayList<Racer>();
+	private List<Drop> drops = new ArrayList<Drop>();
 
+	public QualifySession(int sessionId, String label) {
+		super();
+		this.sessionId = sessionId;
+		this.label = label;
+	}
 
 	public int getSessionId() {
 		return sessionId;
@@ -17,12 +23,12 @@ public class QualifySession {
 		this.sessionId = sessionId;
 	}
 
-	public List<Racer> getRacers() {
-		return racers;
+	public List<Drop> getDrops() {
+		return drops;
 	}
 
-	public void setRacers(List<Racer> racers) {
-		this.racers = racers;
+	public void setDrops(List<Drop> drops) {
+		this.drops = drops;
 	}
 
 	public String getLabel() {
