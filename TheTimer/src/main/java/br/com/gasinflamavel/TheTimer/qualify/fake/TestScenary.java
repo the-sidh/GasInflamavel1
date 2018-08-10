@@ -12,6 +12,16 @@ import br.com.gasinflamavel.TheTimer.qualify.Racer;
 public class TestScenary {
 
 	private List<Qualify> races = new ArrayList<Qualify>();
+	
+	public static TestScenary instance;
+	
+	public static TestScenary getInstance() {
+		if(instance==null) {
+			instance=new TestScenary();
+			instance.init();
+		}
+		return instance;
+	}
 
 	public void init() {
 		List<QualifySession> sessions = new ArrayList<QualifySession>();
